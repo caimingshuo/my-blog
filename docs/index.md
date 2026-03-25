@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
-<LandingPage />
+<!-- Fallback content - actual landing page is in public/index.html -->
