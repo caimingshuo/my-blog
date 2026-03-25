@@ -1,20 +1,8 @@
 import { defineConfig } from 'vitepress'
-import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  title: 'Agent Development',
-  description: 'Exploring AI Agent Architecture, Patterns, and Best Practices',
-  
-  vite: {
-    resolve: {
-      alias: {
-        '@': fileURLToPath(new URL('../', import.meta.url))
-      }
-    },
-    optimizeDeps: {
-      include: ['motion', 'lucide-react']
-    }
-  },
+  title: "Mingshou's Blog",
+  description: '技术、思考与生活记录',
   
   themeConfig: {
     nav: [
@@ -23,16 +11,7 @@ export default defineConfig({
       { text: 'About', link: '/about' }
     ],
     
-    sidebar: {
-      '/articles/': [
-        {
-          text: 'Articles',
-          items: [
-            { text: 'Building AI Agents: A Comprehensive Guide', link: '/articles/agent-development-guide' },
-          ]
-        }
-      ]
-    },
+    sidebar: false,
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/caimingshuo' }
@@ -40,32 +19,20 @@ export default defineConfig({
     
     footer: {
       message: 'Built with VitePress',
-      copyright: 'Copyright © 2025'
+      copyright: 'Copyright © 2025 Mingshou'
     },
     
     search: {
       provider: 'local'
-    },
-    
-    logo: {
-      src: '/logo.svg',
-      alt: 'Agent Blog'
     }
   },
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#000000' }],
+    ['meta', { name: 'theme-color', content: '#0a0a0a' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['link', { 
-      rel: 'preconnect', 
-      href: 'https://fonts.googleapis.com' 
-    }],
-    ['link', { 
-      rel: 'preconnect', 
-      href: 'https://fonts.gstatic.com',
-      crossorigin: ''
-    }]
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
   ],
   
   base: '/my-blog/',
@@ -73,11 +40,7 @@ export default defineConfig({
   appearance: 'dark',
   
   markdown: {
-    lineNumbers: true,
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark'
-    }
+    lineNumbers: true
   },
   
   lastUpdated: true,

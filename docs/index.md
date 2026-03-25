@@ -1,5 +1,6 @@
 ---
 layout: home
+sidebar: false
 ---
 
-<!-- Fallback content - actual landing page is in public/index.html -->
+<!-- Home page content is in public/index.html -->

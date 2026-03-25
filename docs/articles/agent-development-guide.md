@@ -538,6 +538,10 @@ The field is evolving rapidly. Stay updated with the latest research and don't h
 
 *Have questions or feedback? Feel free to reach out or open an issue on GitHub.*
 
+---
+
+[← Back to Articles](./index.html)
+
 ## Further Reading
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
