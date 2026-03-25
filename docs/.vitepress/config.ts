@@ -1,9 +1,20 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 
-// https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-  title: 'Agent Development Blog',
+  title: 'Agent Development',
   description: 'Exploring AI Agent Architecture, Patterns, and Best Practices',
+  
+  vite: {
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('../', import.meta.url))
+      }
+    },
+    optimizeDeps: {
+      include: ['motion', 'lucide-react']
+    }
+  },
   
   themeConfig: {
     nav: [
@@ -28,24 +39,37 @@ export default defineConfig({
     ],
     
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present'
+      message: 'Built with VitePress',
+      copyright: 'Copyright © 2025'
     },
     
     search: {
       provider: 'local'
+    },
+    
+    logo: {
+      src: '/logo.svg',
+      alt: 'Agent Blog'
     }
   },
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#5f67ee' }]
+    ['meta', { name: 'theme-color', content: '#000000' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['link', { 
+      rel: 'preconnect', 
+      href: 'https://fonts.googleapis.com' 
+    }],
+    ['link', { 
+      rel: 'preconnect', 
+      href: 'https://fonts.gstatic.com',
+      crossorigin: ''
+    }]
   ],
   
-  // GitHub Pages 部署配置
   base: '/my-blog/',
   
-  // 美化配置
   appearance: 'dark',
   
   markdown: {
@@ -54,5 +78,9 @@ export default defineConfig({
       light: 'github-light',
       dark: 'github-dark'
     }
-  }
+  },
+  
+  lastUpdated: true,
+  
+  cleanUrls: true
 })
