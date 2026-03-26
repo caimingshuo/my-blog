@@ -1,6 +1,6 @@
 # 如何使用 VitePress 搭建个人博客
 
-*Published: March 24, 2025*
+*Published: March 24, 2026*
 
 VitePress 是一个基于 Vite 的静态网站生成器，非常适合用来搭建文档和个人博客。本文将介绍如何从零开始搭建一个简洁高效的博客。
 
