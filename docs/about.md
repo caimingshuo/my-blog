@@ -1,28 +1,40 @@
 # About
 
-## 关于我
+## Mingshuo Cai (蔡明硕)
 
-你好，我是 Mingshou。
+I am a 1st-year Master Student at [NJU-3DV](http://zhuhao.cc/group/), Nanjing University, supervised by [Prof. Hao Zhu](http://zhuhao.cc/) and [Prof. Xun Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html).
 
-我是一名软件工程师，主要从事 Web 开发和 AI 应用相关工作。这个博客是我记录技术学习、项目实践和日常思考的地方。
+Previously, I received my B.Eng. in Artificial Intelligence from **Xidian University** (GPA: 3.9/4.0, Top 1%).
 
-## 兴趣方向
+## Research Interests
 
-- **人工智能** - LLM、AI Agent、机器学习应用
-- **Web 开发** - React、Vue、Node.js、现代前端工具链
-- **开源** - 参与和贡献开源项目
-- **效率工具** - 不断寻找更好的工作流和工具
+- **Streaming Video Generation**
+- **Generative AI**
+- **Digital Avatars**
 
-## 联系我
+## Publications
 
+- **Emotional Speech-Driven 3D Talking-Head Generation**  
+  *SIGGRAPH 2026 Under Review*  
+  First 3D speech-driven system supporting identity-specific emotional style generalization.
+
+- **Mind the Gap: Multilevel Unsupervised Domain Adaptation**  
+  *IEEE TGRS 2024 / ESI Top 1%*  
+  [Paper](https://ieeexplore.ieee.org/document/10543066/) | [Code](https://github.com/cfcys/TGRS_MLUDA-2024) | [Project](https://cfcys.github.io/paper/MLUDA.html)
+
+## Honors & Awards
+
+- National Scholarship (2024)
+- Xiaomi Scholarship
+- Renxin Zhumeng Scholarship
+- Outstanding Graduate of Xidian University (2025, Top 1%)
+- Outstanding Student (Top 1%)
+
+## Connect
+
+- Email: caimingshoo@gmail.com
 - GitHub: [caimingshuo](https://github.com/caimingshuo)
-- Email: caimingshuo@gmail.com
-
-## 关于这个博客
-
-这个博客使用 [VitePress](https://vitepress.dev/) 构建，部署在 GitHub Pages 上。
-
-主题基于自定义设计，追求简洁、专注阅读体验。
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=s0p1GBcAAAAJ)
 
 ---
 
