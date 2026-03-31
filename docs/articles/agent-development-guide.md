@@ -1,6 +1,6 @@
 # Building AI Agents: A Comprehensive Guide
 
-*Published: March 25, 2026*
+*Published: February 28, 2026*
 
 AI agents represent a paradigm shift in how we interact with large language models. Unlike simple prompt-response systems, agents can reason, plan, use tools, and maintain state across multiple interactions. This guide explores the key concepts, architectural patterns, and implementation strategies for building effective AI agents.
 
