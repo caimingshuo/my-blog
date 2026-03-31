@@ -32,12 +32,13 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#0a0a0a' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['script', {}, `document.documentElement.classList.add('dark')`]
   ],
   
   base: '/my-blog/',
   
-  appearance: 'dark',
+  appearance: false,
   
   markdown: {
     lineNumbers: true
