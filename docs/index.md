@@ -24,6 +24,35 @@ layout: false
   letter-spacing: 0.02em;
   margin-bottom: 20px;
   line-height: 1.1;
+  text-shadow: 
+    0 0 20px rgba(167, 139, 250, 0.3),
+    0 0 40px rgba(167, 139, 250, 0.2),
+    0 0 60px rgba(167, 139, 250, 0.1);
+  animation: float 4s ease-in-out infinite, glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 
+      0 0 20px rgba(167, 139, 250, 0.3),
+      0 0 40px rgba(167, 139, 250, 0.2),
+      0 0 60px rgba(167, 139, 250, 0.1);
+  }
+  100% {
+    text-shadow: 
+      0 0 30px rgba(167, 139, 250, 0.5),
+      0 0 60px rgba(167, 139, 250, 0.3),
+      0 0 90px rgba(167, 139, 250, 0.2);
+  }
 }
 
 .home-subtitle {
