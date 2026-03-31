@@ -13,9 +13,7 @@ export default defineConfig({
     
     sidebar: false,
     
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/caimingshuo' }
-    ],
+
     
     footer: {
       message: 'Built with VitePress',
@@ -37,7 +35,7 @@ export default defineConfig({
   
   base: '/my-blog/',
   
-  appearance: 'dark',
+  appearance: false,
   
   markdown: {
     lineNumbers: true
