@@ -1,3 +1,23 @@
+---
+layout: doc
+---
+
+<style>
+.VPDoc h2 {
+  font-family: 'Playfair Display', 'Noto Serif SC', serif !important;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.VPDoc h2:first-of-type {
+  margin-top: 24px;
+}
+</style>
+
 # Articles
 
 所有文章列表。
