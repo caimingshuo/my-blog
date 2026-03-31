@@ -36,7 +36,7 @@ layout: doc
 
 ## 杂记
 
-- [关于恋爱的一些碎碎念](./life-dating-thoughts.md) - *Mar 28, 2026* - 算法时代的缘分、dating app 血泪史，以及对理想关系的一些思考
+- [我的桌面装备 2026](./my-desk-setup-2026.md) - *Mar 28, 2026* - 一个研究生的桌面EDC分享：MacBook、4K显示器、机械键盘、降噪耳机等
 
 - [Weekly Reading #1 - 有趣的链接分享](./weekly-reading.md) - *Jan 10, 2026* - 本周阅读的一些有趣文章、工具和资源分享
 
