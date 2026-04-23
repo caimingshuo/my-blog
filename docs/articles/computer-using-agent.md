@@ -102,6 +102,19 @@ GUI 操作从来不是单步动作，而是一个连续策略问题：
 
 这也是为什么 GUI Agent 最终会再次遇到 world model 问题。
 
+## GUI Agent 在哪些场景最先落地？
+
+我觉得这类系统最可能先在“高价值、低频率、流程相对清晰”的任务里成熟，而不是一上来就接管所有桌面操作。
+
+比较适合的方向通常有这些：
+
+- 需要跨多个后台系统搬运信息的运营工作
+- 浏览器里的标准化录入和核对流程
+- SaaS 管理后台中的报表下载、配置巡检和简单变更
+- 需要人在旁边监督、但重复度很高的办公动作
+
+这些场景的共同点是：动作虽然真实，但流程边界还算清晰，适合作为 Agent 进入 GUI 世界的第一站。
+
 ## 为什么它最终会走向“World Model + Action”？
 
 因为真正困难的并不是点击本身，而是理解动作之后世界会怎么变。
@@ -114,6 +127,19 @@ GUI 操作从来不是单步动作，而是一个连续策略问题：
 - 还有几步能完成任务？是否应该换策略？
 
 这些都不是纯感知问题，而是“行动后果预测”问题。也就是说，GUI Agent 做到深处，必然会与 world model 汇合。
+
+## 工程上真正难的不是“点击”，而是“确认”
+
+很多外部观察会把 computer use 理解为 vision + mouse control，但真正让系统变稳的，往往不是更准地点击，而是更严谨地确认。
+
+一个成熟系统通常需要在每个关键动作后回答：
+
+- 我是否真的看到了目标元素，而不是相似元素？
+- 当前页面是否已经进入预期状态？
+- 如果没有变化，是应该等待、刷新，还是回退？
+- 这个动作是否具有副作用，是否需要人类确认？
+
+这也是为什么执行层、观察层和安全层要一起设计。GUI Agent 的难，不在于单个动作，而在于一整条动作链是否能被持续校验。
 
 ## 我对这一波的看法
 
@@ -138,6 +164,12 @@ GUI 自动化重新变热，并不意味着“终于能让 AI 替代鼠标”。
 - [Anthropic Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use)
 - [OpenAI Operator](https://openai.com/index/introducing-operator/)
 - [WebVoyager](https://arxiv.org/abs/2401.13919)
+
+**参考跳转**：
+- [从 Tool Use 到 World Model：Agent 为什么开始需要“内在模拟器”](./tool-use-to-world-model.md) - *Apr 19, 2026* - 讨论 Agent 从被动调用工具走向主动预测环境、规划长期行动的关键转折
+- [Computer-Using Agent 进入实战期：GUI 自动化为什么重新变热](./computer-using-agent.md) - *Apr 14, 2026* - 从浏览器操作到桌面控制，分析“会点按钮的 Agent”背后的能力跃迁与现实约束
+- [MCP、工具调用与 Agent 基建：2026 年的关键不再只是模型参数](./mcp-agent-infrastructure.md) - *Apr 8, 2026* - 为什么 Agent 的竞争力越来越取决于工具接口、上下文管理和执行框架
+- [世界模型回归：为什么大家又开始认真谈论 World Model](./world-model-return.md) - *Apr 3, 2026* - 从感知到行动闭环，梳理 world model 在新一代 Agent 语境中的重新崛起
 
 ---
 
