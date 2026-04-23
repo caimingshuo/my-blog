@@ -24,6 +24,10 @@ layout: doc
 
 ## AI & 技术
 
+- [Harness AI Agent：DevOps 智能化的下一代范式](./harness-ai-agent.md) - *Apr 22, 2026* - Harness 平台的 AI Agent 体系，从 Pipeline 自动生成到自主运维的 DevOps 智能化实践
+
+- [Consistency Model 与 Latent Consistency Model：扩散模型的少步生成革命](./lcm-consistency-model.md) - *Apr 23, 2026* - 从单步生成的理论基石到 LCM-LoRA 的即插即用加速，解析扩散模型的少步生成范式
+
 - [SoulX-FlashTalk & FlashHead：消费级 GPU 实时数字人技术](./soulx-flashtalk-flashhead.md) - *Mar 30, 2026* - Soul App AI Lab 开源的两个实时数字人项目，14B 云端高质量与 1.3B 消费级实时方案
 
 - [AutoResearch: 让 AI Agent 自主进行深度学习研究](./autoresearch-karpathy.md) - *Feb 15, 2026* - Andrej Karpathy 的实验性项目，探索让 AI Agent 自主进行深度学习研究
