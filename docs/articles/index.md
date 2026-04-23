@@ -28,6 +28,14 @@ layout: doc
 
 - [Consistency Model 与 Latent Consistency Model：扩散模型的少步生成革命](./lcm-consistency-model.md) - *Apr 23, 2026* - 从单步生成的理论基石到 LCM-LoRA 的即插即用加速，解析扩散模型的少步生成范式
 
+- [从 Tool Use 到 World Model：Agent 为什么开始需要“内在模拟器”](./tool-use-to-world-model.md) - *Apr 19, 2026* - 讨论 Agent 从被动调用工具走向主动预测环境、规划长期行动的关键转折
+
+- [Computer-Using Agent 进入实战期：GUI 自动化为什么重新变热](./computer-using-agent.md) - *Apr 14, 2026* - 从浏览器操作到桌面控制，分析“会点按钮的 Agent”背后的能力跃迁与现实约束
+
+- [MCP、工具调用与 Agent 基建：2026 年的关键不再只是模型参数](./mcp-agent-infrastructure.md) - *Apr 8, 2026* - 为什么 Agent 的竞争力越来越取决于工具接口、上下文管理和执行框架
+
+- [世界模型回归：为什么大家又开始认真谈论 World Model](./world-model-return.md) - *Apr 3, 2026* - 从感知到行动闭环，梳理 world model 在新一代 Agent 语境中的重新崛起
+
 - [SoulX-FlashTalk & FlashHead：消费级 GPU 实时数字人技术](./soulx-flashtalk-flashhead.md) - *Mar 30, 2026* - Soul App AI Lab 开源的两个实时数字人项目，14B 云端高质量与 1.3B 消费级实时方案
 
 - [AutoResearch: 让 AI Agent 自主进行深度学习研究](./autoresearch-karpathy.md) - *Feb 15, 2026* - Andrej Karpathy 的实验性项目，探索让 AI Agent 自主进行深度学习研究
