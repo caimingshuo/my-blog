@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Mingshou's Blog",
+  title: "Mingshuo's Blog",
   description: '技术、思考与生活记录',
   
   themeConfig: {
@@ -17,7 +17,7 @@ export default defineConfig({
     
     footer: {
       message: 'Built with VitePress',
-      copyright: 'Copyright © 2025 Mingshou'
+      copyright: 'Copyright © 2025 Mingshuo'
     },
     
     search: {
